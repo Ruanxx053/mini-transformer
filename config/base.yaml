@@ -1,0 +1,13 @@
+﻿data:
+  max_len: 100
+  batch_size: 12
+model:
+  d_model: 512
+  nhead: 8
+  num_layers: 6
+  d_ff: 2048
+  dropout: 0.1
+train:
+  lr: 1e-4
+  epochs: 50
+  label_smoothing: 0.1
